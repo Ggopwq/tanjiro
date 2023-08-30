@@ -1,0 +1,88 @@
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+
+local Window = OrionLib:MakeWindow({Name = "tanjiro", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
+
+
+local Tab = Window:MakeTab({
+	Name = "الصفحه الاولى",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+local Section = Tab:AddSection({
+	Name = "سكربت tanjiro"
+})
+
+Tab:AddButton({
+	Name = "بلاك هوب",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/1f0yt/community/main/BLCK"))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "يجيب الميراج",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/mo061/Mystic-Hub-mobile-phone/main/README.md"))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "هوهو ",
+	Callback = function()
+      		loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HOHO_H/main/Loading_UI'))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "سكربت ساكي",
+	Callback = function()
+      		loadstring(game:HttpGetAsync('https://sharetext.me/raw/u3if6m3hgr'))()
+  	end    
+})
+
+
+
+Tab:AddButton({
+	Name = "زين هوب",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/ZenHubTheBest/Main/Script/ChestFarm",
+  true))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "سكربت نيفا",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/VEZ2/NEVA-HUB/main/Aimbot"))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "سكربت BF  بدون مفتاح",
+	Callback = function()
+      		loadstring(game:HttpGet('https://raw.githubusercontent.com/Hirimii/ScriptBF/main/Loader4.lua'))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "هوب 2",
+	Callback = function()
+      		loadstring(game:HttpGet("https://github.com/LeVanNhatIT/GringoHub/raw/main/Loading_Ui/Loading"))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "بيست هوب",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/BestScriptEverr/Main-/main/Yujin"))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "هوب",
+	Callback = function()
+      		loadstring(Game:HttpGet"https://relzhub.xcodehoster.com/loader.lua")()
+  	end    
+})
+
