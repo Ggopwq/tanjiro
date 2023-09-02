@@ -86,3 +86,10 @@ Tab:AddButton({
   	end    
 })
 
+Tab:AddButton({
+	Name = "افضل سكربت بدون مفتاح",
+	Callback = function()
+      		loadstring(game:HttpGet('https://raw.githubusercontent.com/ThunderZ-HUB/HUB/main/RemakeMobileTest', true))()
+  	end    
+})
+
