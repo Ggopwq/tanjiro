@@ -93,3 +93,50 @@ Tab:AddButton({
   	end    
 })
 
+
+local Tab = Window:MakeTab({
+	Name = "بلوكس فروت 2",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+Tab:AddButton({
+	Name = "سكربت دايموند",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/Domadicoof/Domadicoof/main/Domadichub/NottoGay/Start.ranscript"))()
+  	end    
+})
+
+local Section = Tab:AddSection({
+	Name = "قيد التحديث"
+})
+
+
+
+
+local Tab = Window:MakeTab({
+	Name = "ماب البيوت",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+
+Tab:AddButton({
+	Name = "lec hub",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/IceMael7/NewIceHub/main/Brookhaven"))()
+  	end    
+})
+
+
+
+local Tab = Window:MakeTab({
+	Name = "بروجكت سلاير",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+local Section = Tab:AddSection({
+	Name = "قيد التحديث"
+})
+
